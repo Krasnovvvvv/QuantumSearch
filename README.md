@@ -34,7 +34,7 @@ Grover’s algorithm finds a marked item in an unstructured database of size N =
    
    ![Diffusion](assets/diffusion.png)
 
-4. **Iteration**: Repeat Oracle + Diffusion floor($`\pi\sqrt{N}/4`$) times.
+4. **Iteration**: Repeat Oracle + Diffusion floor($`\pi\sqrt{N}\/4`$) times.
 
 5. **Measurement**: Observe the final state to retrieve the target index with high probability.
 
@@ -44,7 +44,7 @@ Grover’s algorithm finds a marked item in an unstructured database of size N =
 
 The `QuantumSearch` class (in **src/QuantumSearch.h** / **src/QuantumSearch.cpp**) provides:
 
-- A complex state vector of size 2^n
+- A complex state vector of size $`2^n`$
 - `initialize()`, `applyOracle()`, `applyDiffusion()`, `run()`, `measure()` methods
 
 Example usage:
@@ -93,7 +93,7 @@ print("Grover time=", duration(start,end));
 | Method            | Theoretical | Simulation Cost       |
 |-------------------|-------------|-----------------------|
 | std::find         | O(N)        | O(N)                  |
-| Grover’s (ideal)  | O($`\sqrt{N}`$)  | O($`\sqrt{N}*2^n`$)      |
+| Grover’s (ideal)  | O($`\sqrt{N}`$)  | O($`\sqrt{N}\*2^n`$)      |
 
 > Note: Classical simulation overhead makes Grover’s slower than std::find.
 
