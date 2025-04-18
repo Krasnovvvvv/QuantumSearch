@@ -34,7 +34,7 @@ Grover’s algorithm finds a marked item in an unstructured database of size N =
    
    ![Diffusion](assets/diffusion.png)
 
-4. **Iteration**: Repeat Oracle + Diffusion floor($`pi\sqrt{N}/4`$) times.
+4. **Iteration**: Repeat Oracle + Diffusion floor($`\pi\sqrt{N}/4`$) times.
 
 5. **Measurement**: Observe the final state to retrieve the target index with high probability.
 
