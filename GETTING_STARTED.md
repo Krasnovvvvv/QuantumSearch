@@ -1,14 +1,14 @@
-# Getting Started
+# 🚀 Getting Started
 
 Follow these steps to quickly set up and run the QuantumSearch library on your local machine.
 
-## Prerequisites
+## 📦 Prerequisites
 
 - **C++17 compiler** (GCC ≥ 7, Clang ≥ 5, MSVC ≥ Visual Studio 2017)
 - **CMake** (optional, for project generation)
 - **Git** (optional, for cloning the repo)
 
-## Installation
+## 🔧 Installation
 
 1. **Clone the repository**
 
@@ -33,7 +33,7 @@ Follow these steps to quickly set up and run the QuantumSearch library on your l
    g++ -std=c++17 src/QuantumSearch.cpp examples/main.cpp -o quantum_search
    ```
 
-## Usage
+## 🧪 Usage
 
 Include the header and call the API:
 
@@ -59,7 +59,7 @@ int main() {
   - `target` — value to search.
   - `100` — number of trials for probabilistic accuracy (default 100).
 
-## Benchmark
+## ⏱️ Benchmark
 
 Compare classical vs. quantum simulation:
 
