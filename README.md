@@ -32,13 +32,13 @@ $`U_f: |x\rangle \rightarrow (-1)^{f(x)} |x\rangle`$,
  where $`f(x) = 1`$ if $`x = t`$, else 0.
 
 
-4. **Diffusion (Inversion about the Mean)**: Reflect all amplitudes about their average to amplify the target.
+3. **Diffusion (Inversion about the Mean)**: Reflect all amplitudes about their average to amplify the target.
    
    ![Diffusion](assets/diffusion.png)
 
-5. **Iteration**: Repeat Oracle + Diffusion floor($`0.25\pi\sqrt{N}`$) times.
+4. **Iteration**: Repeat Oracle + Diffusion floor($`0.25\pi\sqrt{N}`$) times.
 
-6. **Measurement**: Observe the final state to retrieve the target index with high probability.
+5. **Measurement**: Observe the final state to retrieve the target index with high probability.
 
 ---
 
