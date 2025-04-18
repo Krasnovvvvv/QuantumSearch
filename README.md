@@ -21,7 +21,7 @@ A header-only C++ library simulating Grover’s quantum search algorithm, offeri
 
 ## Algorithm Overview
 
-Grover’s algorithm finds a marked item in an unstructured database of size N = 2^n in O(sqrt(N)) steps, offering a quadratic speedup over classical O(N) search.
+Grover’s algorithm finds a marked item in an unstructured database of size N = $`2^n`$ in O($`sqrt(N)`$) steps, offering a quadratic speedup over classical O(N) search.
 
 1. **Initialization**: Prepare an equal superposition of all N basis states.
    
@@ -34,7 +34,7 @@ Grover’s algorithm finds a marked item in an unstructured database of size N =
    
    ![Diffusion](assets/diffusion.png)
 
-4. **Iteration**: Repeat Oracle + Diffusion floor($`pi/4 * \sqrt{N}`$) times.
+4. **Iteration**: Repeat Oracle + Diffusion floor($`pi\sqrt{N}/4`$) times.
 
 5. **Measurement**: Observe the final state to retrieve the target index with high probability.
 
