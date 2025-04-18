@@ -27,7 +27,7 @@ Grover’s algorithm finds a marked item in an unstructured database of size N =
    
    ![Superposition](assets/superposition.png)
 
-2. **Oracle Query**:Flip the phase of the target state $`|t\\rangle`$:  
+2. **Oracle Query**:Flip the phase of the target state $`|t\rangle`$:  
 $`U_f: |x\\rangle \\rightarrow (-1)^{f(x)} |x\\rangle`$, where $`f(x) = 1`$ if $`x = t`$, else 0.
 
 
