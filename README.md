@@ -34,7 +34,7 @@ Grover’s algorithm finds a marked item in an unstructured database of size N =
    
    ![Diffusion](assets/diffusion.png)
 
-4. **Iteration**: Repeat Oracle + Diffusion floor(pi/4 * sqrt(N)) times.
+4. **Iteration**: Repeat Oracle + Diffusion floor($`pi/4 * \sqrt{N}`$) times.
 
 5. **Measurement**: Observe the final state to retrieve the target index with high probability.
 
@@ -109,7 +109,7 @@ print("Grover time=", duration(start,end));
 | Data            | Bits            | Qubits               |
 | Parallelism     | Multi-core/SIMD | Intrinsic via superposition |
 | Memory          | O(N)            | Physical qubits for n      |
-| Query Complexity| O(N)            | O(sqrt(N))             |
+| Query Complexity| O(N)            | O($`\sqrt{N}`$)             |
 
 ---
 
