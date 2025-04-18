@@ -93,7 +93,7 @@ print("Grover time=", duration(start,end));
 | Method            | Theoretical | Simulation Cost       |
 |-------------------|-------------|-----------------------|
 | std::find         | O(N)        | O(N)                  |
-| Grover’s (ideal)  | O(sqrt(N))  | O(sqrt(N) * 2^n)      |
+| Grover’s (ideal)  | O($`\sqrt{N}`$)  | O($`\sqrt{N}*2^n`$)      |
 
 > Note: Classical simulation overhead makes Grover’s slower than std::find.
 
@@ -102,7 +102,7 @@ print("Grover time=", duration(start,end));
 ## Quantum vs Classical Architectures
 
 - **Classical CPU**: Bits, O(N) memory and time
-- **Quantum Processor**: Qubits, superposition enables O(sqrt(N)) queries
+- **Quantum Processor**: Qubits, superposition enables O($`\sqrt{N}`$) queries
 
 | Feature         | Classical       | Quantum              |
 |-----------------|-----------------|----------------------|
