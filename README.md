@@ -27,8 +27,9 @@ Grover’s algorithm finds a marked item in an unstructured database of size N =
    
    ![Superposition](assets/superposition.png)
 
-2. **Oracle Query**: Flip the phase of the target state |t>:
-   U_f: |x> → (-1)^{f(x)} |x>, where f(x)=1 if x=t, else 0.
+2. **Oracle Query**:Flip the phase of the target state $`|t\\rangle`$:  
+$`U_f: |x\\rangle \\rightarrow (-1)^{f(x)} |x\\rangle`$, where $`f(x) = 1`$ if $`x = t`$, else 0.
+
 
 3. **Diffusion (Inversion about the Mean)**: Reflect all amplitudes about their average to amplify the target.
    
