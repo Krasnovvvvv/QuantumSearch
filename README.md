@@ -116,10 +116,10 @@ print("Grover time=", duration(start,end));
 
 ## 🚀 Getting Started
 
-For detailed instructions on cloning, building, and running, see [📘 Getting Started](GETTING_STARTED.md).
+For detailed instructions on cloning, building, and running, see [Getting Started](GETTING_STARTED.md).
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License. See [📄 License](LICENSE) for details.
+This project is licensed under the MIT License. See [License](LICENSE) for details.
