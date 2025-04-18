@@ -36,7 +36,7 @@ $`U_f: |x\rangle \rightarrow (-1)^{f(x)} |x\rangle`$,
    
    ![Diffusion](assets/diffusion.png)
 
-5. **Iteration**: Repeat Oracle + Diffusion floor($`\0.25pi\sqrt{N}`$) times.
+5. **Iteration**: Repeat Oracle + Diffusion floor($`0.25\pi\sqrt{N}`$) times.
 
 6. **Measurement**: Observe the final state to retrieve the target index with high probability.
 
