@@ -98,15 +98,4 @@ print(duration(start, now()));
 
 ---
 
-## 🎨 GitHub Profile Presentation
-
-1. **Project Banner**: Add a custom banner (`README` header) illustrating Grover’s circuit.
-2. **Badges**: Build status (Travis/AppVeyor), license (MIT), coverage.
-3. **Table of Contents**: For easy navigation.
-4. **GIF/Demo**: Embed a short GIF showing the simulation in action.
-5. **Code Snippets**: Use collapsible sections (HTML `<details>`) for brevity.
-6. **Wiki/Docs**: Link to detailed architecture notes and mathematical derivations.
-
----
-
-**License**: MIT © Your Name
+**License**: MIT © Fyodor Krasnov
