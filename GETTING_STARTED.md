@@ -13,7 +13,7 @@ Follow these steps to quickly set up and run the QuantumSearch library on your l
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/YourUsername/QuantumSearch.git
+   git clone https://github.com/Krasnovvvvv/QuantumSearch.git
    cd QuantumSearch
    ```
 
@@ -73,13 +73,3 @@ You should see output similar to:
 std::find: 0.0123s
 grover_search: 0.4567s
 ```
-
-## Branch Strategy
-
-We use **GitFlow** model:
-
-- `main` — stable releases
-- `develop` — integration of features
-- `feature/<name>` — new features (e.g., `feature/grover-search`, `feature/benchmark`)
-- `release/<version>` — preparation for release
-- `hotfix/<issue>` — urgent fixes on `main`
