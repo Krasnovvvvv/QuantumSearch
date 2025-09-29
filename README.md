@@ -11,11 +11,11 @@ A header-only C++ library simulating Grover’s quantum search algorithm, offeri
 ## 🧭 Table of Contents
 
 - [📖 Algorithm Overview](#-algorithm-overview)
-- [🔧 Implementation Details](#implementation-details)
-- [⏱️ Performance Comparison](#performance-comparison)
-- [🧠 Quantum vs Classical Architectures](#quantum-vs-classical-architectures)
-- [🚀 Getting Started](#getting-started)
-- [📄 License](#license)
+- [🔧 Implementation Details](#-implementation-details)
+- [⏱️ Performance Comparison](#-performance-comparison)
+- [🧠 Quantum vs Classical Architectures](#-quantum-vs-classical-architectures)
+- [🚀 Getting Started](#-getting-started)
+- [📄 License](#-license)
 
 ---
 
